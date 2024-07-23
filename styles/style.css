@@ -79,8 +79,19 @@
 }
 /* navbar ended */
 @media(max-width:323px){
-    header{
-        display: none;
+    .nav-icon{
+        display: block;
+        margin: -12px 0 0 13px;
+    }  
+    .nav-items{
+        display: none !important;
+    }
+    .navbar{
+        justify-content: space-between !important;
+    }
+    .logo-img {
+        width: 100px;
+        margin: -6px 10px 0 0px;
     }
 }
 @media screen and (min-device-width: 324px) and (max-device-width: 991px) { 
