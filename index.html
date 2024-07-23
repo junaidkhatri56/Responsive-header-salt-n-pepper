@@ -42,16 +42,10 @@
 
     <script src="https://kit.fontawesome.com/24f85a6097.js" crossorigin="anonymous"></script>
     <script>
-       function showSidebar() {
-    const sidebar = document.querySelector('.sidebar');
-    const screenWidth = window.innerWidth;
-
-    if (screenWidth <= 991) {
-        sidebar.style.display = 'flex'; // Show sidebar on smaller screens
-    } else {
-        sidebar.style.display = 'none'; // Hide sidebar on larger screens
-    }
-    }
+       function showSidebar(){
+            const sidebar = document.querySelector('.sidebar')
+            sidebar.style.display = 'flex'
+        }
         function hideSidebar(){
             const sidebar = document.querySelector('.sidebar')
             sidebar.style.display = 'none'
